@@ -1,0 +1,17 @@
+public static class Node{
+    Music_File_Path music_path;
+    Node next;
+    //MP3Player a;
+    /*
+    this is the constructor for the node class which accepts two paramters as an argument
+    */
+    
+    public Node(Music_File_Path music_path,Node next){
+    this.music_path = music_path;
+    this.next = next;
+    }
+    /* this is the constructor for the node class that accepts only one paramter File_Path_Music */
+    public Node(Music_File_Path music_path){
+    this(music_path,null);
+    }
+    }
